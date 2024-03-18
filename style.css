@@ -1,0 +1,61 @@
+css
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #007bff;
+    font-family: "Times New Roman", serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.highlight {
+    background-color: #ffc107;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#about-me, #hobbies, #spirit-animal, #image {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    font-size: 24px;
+}
+header h1, header h2 {
+    text-align: center;
+}
